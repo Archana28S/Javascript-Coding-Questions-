@@ -68,7 +68,6 @@ items.forEach((item)=>{
     }
 },{})
 console.log([check]);
-// Not able to get the exact output format as mentioned above.
 
 
 //Question 3:
