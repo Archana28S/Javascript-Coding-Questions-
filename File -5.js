@@ -59,7 +59,7 @@ console.log(miniAge);
     // output should be (count of occurences )
    // {
    // pending: 2, cancelled: 1, shipped: 1
-   // } Not able to solve it
+   // } 
 
    const count = orders.reduce(function(acc,curr){
     acc[curr.status] = (acc[curr.status] || 0) + 1;
@@ -128,17 +128,3 @@ for(let i=0;i<filteredCompanies.length;i++){
     });
     console.log(companies);
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
